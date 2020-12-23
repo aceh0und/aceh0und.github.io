@@ -12,12 +12,13 @@ p {
 
 }
 
+
 .top-navbar {
 
     background-color: #586266;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 0px;
     padding-right: 0px;
     border-color: black;
@@ -49,9 +50,18 @@ ul {
 
 .top-nav {
 
+    float: left;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-right: 0px;
+
+}
+
+.nav::after {
+
+    content: "";
+    clear: both;
+    display: table;
 
 }
 
@@ -97,10 +107,11 @@ button.top-nav{
 
 }
 
+
 #index-mid-left {
 
     background-color: grey;
-    width: 450px;
+    width: 275px;
     border-style: solid;
     border-color: black;
     border-radius: 7px;
@@ -117,9 +128,20 @@ button.top-nav{
 #index-mid-middle {
 
     background-color: grey;
-    width: 1300px;
-    height: 750px;
+    width: 1215px;
+    height: 740px;
     border-style: solid;
+    border-radius: 7px;
+    border-width: 5px;
+
+}
+
+#index-mid-right {
+
+    background-color: grey;
+    width: 275px;
+    border-style: solid;
+    border-color: black;
     border-radius: 7px;
     border-width: 5px;
 
